@@ -1,7 +1,7 @@
 ## Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/cdma.mk)
+$(call inherit-product, vendor/codex/config/common_cdma.mk)
 
-$(call inherit-product, device/motorola/vanquish-common/cm.mk)
+$(call inherit-product, device/motorola/vanquish-common/codex.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 720
