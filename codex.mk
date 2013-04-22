@@ -2,6 +2,8 @@
 $(call inherit-product, vendor/codex/config/common_cdma.mk)
 $(call inherit-product, vendor/codex/config/common.mk)
 
+$(call inherit-product, device/motorola/msm8960-common/codex.mk)
+
 # Boot animation
 TARGET_SCREEN_WIDTH := 720
 TARGET_SCREEN_HEIGHT := 1280
