@@ -1,7 +1,7 @@
 ## Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/cdma.mk)
+$(call inherit-product, vendor/codex/config/common_cdma.mk)
 
-$(call inherit-product, device/motorola/vanquish-common/cm.mk)
+$(call inherit-product, device/motorola/vanquish-common/codex.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 720
@@ -9,7 +9,7 @@ TARGET_SCREEN_HEIGHT := 1280
 
 # Release name
 PRODUCT_RELEASE_NAME := xt926
-PRODUCT_NAME := cm_xt926
+PRODUCT_NAME := codex_xt926
 
 $(call inherit-product, device/motorola/xt926/full_xt926.mk)
 
