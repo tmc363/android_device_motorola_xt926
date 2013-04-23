@@ -1,4 +1,13 @@
-$(call inherit-product, device/motorola/vanquish-common/device.mk)
+$(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
+
+$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
+
+$(call inherit-product, device/motorola/msm8960-common/msm8960.mk)
+
+TARGET_USES_MOTOROLA_COMMON_LIBLIGHT:=true
+TARGET_USES_MOTOROLA_COMMON_IDC:=true
+TARGET_USES_MOTOROLA_COMMON_KEYCHARS:=true
+TARGET_USES_MOTOROLA_COMMON_KEYLAYOUT:=true
 
 LOCAL_PATH := device/motorola/xt926
 
