@@ -1,5 +1,6 @@
 ## Specify phone tech before including full_phone
 $(call inherit-product, vendor/codex/config/common_cdma.mk)
+$(call inherit-product, vendor/codex/config/common.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 720
