@@ -6,6 +6,7 @@
 LOCAL_PATH := device/motorola/xt926
 
 # Inline kernel building
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.6/bin/arm-eabi-
 TARGET_KERNEL_SOURCE := kernel/motorola/msm8960-common
 TARGET_KERNEL_CONFIG := msm8960_mmi_defconfig
 TARGET_PREBUILT_KERNEL := device/motorola/xt926/kernel
