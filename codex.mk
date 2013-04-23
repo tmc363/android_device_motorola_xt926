@@ -2,6 +2,8 @@
 $(call inherit-product, vendor/codex/config/common_cdma.mk)
 $(call inherit-product, vendor/codex/config/common.mk)
 
+# Inherit some common codex stuff.
++$(call inherit-product, vendor/codex/config/common_phone.mk)
 $(call inherit-product, device/motorola/msm8960-common/codex.mk)
 
 # Boot animation
