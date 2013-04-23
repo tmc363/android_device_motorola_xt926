@@ -6,7 +6,7 @@ $(call inherit-product, vendor/codex/config/common.mk)
 $(call inherit-product, vendor/codex/config/nfc_enhanced.mk)
 
 # Inherit some common codex stuff.
-+$(call inherit-product, vendor/codex/config/common_phone.mk)
+$(call inherit-product, vendor/codex/config/common_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 720
