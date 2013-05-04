@@ -2,9 +2,6 @@
 $(call inherit-product, vendor/carbon/config/common_cdma.mk)
 $(call inherit-product, vendor/carbon/config/common.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/carbon/config/nfc_enhanced.mk)
-
 # Inherit some common codex stuff.
 $(call inherit-product, vendor/carbon/config/common_phone.mk)
 
